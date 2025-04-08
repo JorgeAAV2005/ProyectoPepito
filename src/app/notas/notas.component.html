@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ProyectoPepito</title>
+    <link rel="stylesheet" href="notas.component.css"/>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="avatar">P</div>
+                <div class="user-info">
+                    <h3>Pepito_Pérez</h3>
+                </div>
+                <i class="fa-solid fa-gear settings-icon"></i>
+            </div>
+
+            <input type="text" class="search" placeholder="Buscar" />
+
+            <nav>
+                <ul>
+                    <li (click)="Inicio()"><i class="fa-solid fa-house"></i> INICIO</li>
+                    <li class="active"(click)="Notas()"><i class="fa-solid fa-note-sticky"></i>NOTAS</li>
+                    <li><i class="fa-solid fa-tasks"></i> TAREAS</li>
+                    <li><i class="fa-solid fa-calendar-days"></i> CALENDARIO</li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p><i class="fa-solid fa-shield-halved"></i> Cifrado de extremo a extremo.</p>
+            </footer>
+        </aside>
+
+        <main class="content">
+            
+            <br>
+            <h3>NOTAS</h3>
+            <br>
+            <p>¿Estás listo para empezar a tomar nota de tu vida?</p>
+            <section class="highlights">
+                <div class="highlight-section">
+                    
+                    <div class="card1">
+                        <p>Acordarme de hacer tarea.</p>
+                        <p>adadadadadaasasasa</p>
+                        <span class="date">02/04/2025</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
