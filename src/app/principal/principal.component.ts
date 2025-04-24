@@ -15,5 +15,8 @@ export class PrincipalComponent {
   Notas() {
     this.router.navigate(['/notas']);
   }
+  Tareas() {
+    this.router.navigate(['/tareas']);
+  }
 
 }

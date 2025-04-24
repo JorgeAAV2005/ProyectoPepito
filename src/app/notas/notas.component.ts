@@ -17,5 +17,8 @@ export class NotasComponent {
   Inicio() {
     this.router.navigate(['/']);
   }
+  Tareas() {
+    this.router.navigate(['/tareas']);
+  }
 
 }
